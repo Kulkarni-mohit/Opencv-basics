@@ -20,7 +20,7 @@ merged=cv.merge([b,g,r])
 cv.imshow('Merged Image', merged)
 
 
-"""
+
 # Lets visualise the colors more clearly
 
 blank=np.zeros(img.shape[:2], dtype= 'uint8')
@@ -33,7 +33,6 @@ cv.imshow('Blue',blue)
 cv.imshow('Green',green)
 cv.imshow('Red',red)
 
-"""
 
 
 cv.waitKey(0)

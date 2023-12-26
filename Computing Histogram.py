@@ -10,7 +10,7 @@ img = cv.imread('C:/Users/Acer/Pictures/Captureb+.png')
 cv.imshow('Image',img)
 
 blank = np.zeros(img.shape[:2], dtype='uint8')
-"""
+
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray',gray)
 
@@ -48,5 +48,5 @@ for i,col in enumerate(colors):
 
 plt.show()
 
-
+"""
 cv.waitKey(0)
